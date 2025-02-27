@@ -1,0 +1,22 @@
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./carrossel.css);
+@import url(./topicos.css);
+@import url(./newsletter&footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+    --background-color: #EBECEE;
+    --branco: #FFF;
+    --laranja: #EB9B00;
+    --azul: #002f52;
+    --azul-degrade: linear-gradient(90deg, #002f52 0%, #326589 100%);
+    --font-principal: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 16px;
+}
