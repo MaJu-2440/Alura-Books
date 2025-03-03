@@ -11,7 +11,7 @@
 }
 
 .newsletter__titulo {
-    font-size: 18px;
+    font-size: 1.15rem;
     font-weight: 500;
 }
 
@@ -28,12 +28,12 @@
 
     padding: 1em;
     width: 90%;
-    font-size: 18px;
+    font-size: 1.15rem;
 }
 
 .newsletter__input::placeholder {
     font-family: var(--font-principal);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: var(--azul);
 
@@ -49,8 +49,72 @@ hr {
 
 .footer {
     padding: 1em;
+    background: var(--branco);
 }
 
 .footer__texto {
     font-weight: 300;
+}
+
+@media screen and (min-width: 1024px) {
+    .newsletter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2em;
+
+        padding: 2em 20%;
+    } 
+
+    .newsletter__titulo {
+        font-size: 1.5rem;
+    } 
+
+    .newsletter__input {
+        width: 50%;
+    }
+
+    .footer__texto {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    .footer__content {
+        display: flex;
+        justify-content: space-between;
+
+        padding: 2em;
+    }
+
+    .footer__lista--titulo {
+        color: var(--cinza-claro);
+        text-transform: uppercase;
+        margin-bottom: 1em;
+    }
+
+    .footer__lista--item {
+        display: flex;
+        align-items: center;
+        gap: .5em;
+        margin: 1em 0;
+    }
+
+    .footer__lista--link {
+        color: var(--cinza);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .newsletter {
+        padding: 2em 30%;
+    }
+
+    .footer__content {
+        padding: 2em 10%;
+    }
+
+    .footer__lista {
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1.25em;
+    }
 }

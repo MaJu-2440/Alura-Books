@@ -1,7 +1,7 @@
 .carrossel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
-    font-size: 18px;
+    font-size: 1.15rem;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -22,7 +22,7 @@
 }
 
 .swiper-button-prev, .swiper-button-next {
-    display: none;
+    top: 60%;
 }
 
 .card {
@@ -52,7 +52,7 @@
 }
 
 .card__descricao--estrelas {
-    width: 50%;
+    width: 5rem;
 }
 
 .card__descricao--subtitulo {
@@ -63,11 +63,11 @@
 .card__descricao--titulo {
     color: var(--azul);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.15rem;
 }
 
 .card__descricao--texto {
-    font-size: 14px;
+    font-size: .85rem;
 }
 
 .card__buttons--lista {
@@ -85,4 +85,82 @@
     color: var(--branco);
     font-weight: 700;
     padding: 1em 2.2em;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 1.5rem;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0;
+    }
+
+    .swiper {
+        width: 60%;
+        padding: 0 3em;
+    }
+
+    .card {
+        width: 45%;
+        margin: 2em auto;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        --swiper-navigation-size: 22px;
+        --swiper-navigation-sides-offset: 0;
+        --swiper-navigation-color: var(--branco);
+
+        background: var(--azul-degrade);
+        padding: 1em 1.25em;
+        border-radius: 50%;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .card__descricao--subtitulo {
+        font-size: 1.5rem;
+    }
+
+    .card__descricao--titulo {
+        font-size: 1.25rem;
+    }
+
+    .card__descricao--texto {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__titulo {
+        font-size: 1.85em;
+        padding: 1.5em 0 .75em;
+    }
+
+    .carrossel__content {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 2em;
+        padding: 2% 10% 5%;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 0;
+    }
+
+    .card__descricao--subtitulo {
+        font-size: 1.85rem;
+    }
+
+    .card__descricao--texto, .card__descricao--titulo {
+        font-size: 1.2rem;
+    }
 }
