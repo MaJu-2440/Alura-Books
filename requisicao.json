@@ -1,0 +1,272 @@
+[
+    {
+      "titulo": "Vue.js: Construa aplicações incríveis",
+      "preco": 29.9,
+      "autor": "Caio Incau",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/Vue.js.png",
+      "alt": "Capa do livro de Front-end com Vue.js",
+      "quantidade": 50,
+      "categoria": "front-end"
+    },
+    {
+      "titulo": "React: A biblioteca JavaScript para interfaces web",
+      "preco": 34.9,
+      "autor": "Fernando Daciuk",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/2665-react/react-thumb.png",
+      "alt": "Capa do livro de Front-end com React",
+      "quantidade": 45,
+      "categoria": "front-end"
+    },
+    {
+      "titulo": "JavaScript Essencial: Aprenda a programar na web",
+      "preco": 27.5,
+      "autor": "Ricardo Martins",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-javascript/javascript-thumb.png",
+      "alt": "Capa do livro de JavaScript Essencial",
+      "quantidade": 60,
+      "categoria": "front-end"
+    },
+    {
+      "titulo": "HTML e CSS3: Domine a web com padrões",
+      "preco": 31.0,
+      "autor": "Mauricio Samy Silva",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/1302-html-css/HTMLCSS3.png",
+      "alt": "Capa do livro de HTML e CSS3",
+      "quantidade": 55,
+      "categoria": "front-end"
+    },
+    {
+      "titulo": "Angular: Comece agora!",
+      "preco": 39.9,
+      "autor": "Loiane Groner",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livros-angular/angular-thumb.png",
+      "alt": "Capa do livro de Front-end com Angular",
+      "quantidade": 30,
+      "categoria": "front-end"
+    },
+    {
+      "titulo": "Java 8 Prático: Lambdas, Streams e o Novo Date/Time",
+      "preco": 36.5,
+      "autor": "Paulo Silveira",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/1827-java8/java8-thumb.png",
+      "alt": "Capa do livro de Java 8 Prático",
+      "quantidade": 35,
+      "categoria": "back-end"
+    },
+    {
+      "titulo": "Python para Desenvolvedores",
+      "preco": 33.0,
+      "autor": "Eduardo Mendes",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-python/python-thumb.png",
+      "alt": "Capa do livro de Python para Desenvolvedores",
+      "quantidade": 50,
+      "categoria": "back-end"
+    },
+    {
+      "titulo": "Node.js: Crie aplicações web escaláveis com JavaScript no servidor",
+      "preco": 41.5,
+      "autor": "Alberto Souza",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-nodejs/nodejs-thumb.png",
+      "alt": "Capa do livro de Node.js",
+      "quantidade": 25,
+      "categoria": "back-end"
+    },
+    {
+      "titulo": "PHP Moderno: Novas funcionalidades e boas práticas",
+      "preco": 29.9,
+      "autor": "Fábio Mitto",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-php-moderno/php-moderno-thumb.png",
+      "alt": "Capa do livro de PHP Moderno",
+      "quantidade": 40,
+      "categoria": "back-end"
+    },
+    {
+      "titulo": ".NET Essencial: Desenvolvimento de aplicações com C#",
+      "preco": 38.0,
+      "autor": "Ricardo Leardi",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-net-essencial/net-essencial-thumb.png",
+      "alt": "Capa do livro de .NET Essencial",
+      "quantidade": 30,
+      "categoria": "back-end"
+    },
+    {
+      "titulo": "Lógica de Programação: Os primeiros passos",
+      "preco": 25.0,
+      "autor": "Paulo Silveira",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-logica/logica-thumb.png",
+      "alt": "Capa do livro de Lógica de Programação",
+      "quantidade": 70,
+      "categoria": "programacao"
+    },
+    {
+      "titulo": "Algoritmos e Estruturas de Dados em Java",
+      "preco": 45.0,
+      "autor": "Loiane Groner",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-algoritmos-java/algoritmos-java-thumb.png",
+      "alt": "Capa do livro de Algoritmos e Estruturas de Dados em Java",
+      "quantidade": 20,
+      "categoria": "programacao"
+    },
+    {
+      "titulo": "Padrões de Projeto: Soluções reutilizáveis de software orientado a objetos",
+      "preco": 52.0,
+      "autor": "Eduardo Guerra, Sergio Lopes",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-padroes-de-projeto/padroes-de-projeto-thumb.png",
+      "alt": "Capa do livro de Padrões de Projeto",
+      "quantidade": 15,
+      "categoria": "programacao"
+    },
+    {
+      "titulo": "Refatoração: Aperfeiçoando o design de código existente",
+      "preco": 48.0,
+      "autor": "Paulo Silveira",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-refatoracao/refatoracao-thumb.png",
+      "alt": "Capa do livro de Refatoração",
+      "quantidade": 28,
+      "categoria": "programacao"
+    },
+    {
+      "titulo": "Testes Automatizados: Do básico ao avançado",
+      "preco": 37.5,
+      "autor": "Mauricio Aniche",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-testes/testes-thumb.png",
+      "alt": "Capa do livro de Testes Automatizados",
+      "quantidade": 32,
+      "categoria": "programacao"
+    },
+    {
+      "titulo": "UX Design para Leigos",
+      "preco": 35.0,
+      "autor": "David Sherwin",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-ux-design-para-leigos/ux-design-para-leigos-thumb.png",
+      "alt": "Capa do livro de UX Design para Leigos",
+      "quantidade": 40,
+      "categoria": "design&UX"
+    },
+    {
+      "titulo": "Mobile Design para Desenvolvedores",
+      "preco": 32.0,
+      "autor": "Rodrigo Turini",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-mobile-design/mobile-design-thumb.png",
+      "alt": "Capa do livro de Mobile Design para Desenvolvedores",
+      "quantidade": 35,
+      "categoria": "design&UX"
+    },
+    {
+      "titulo": "Acessibilidade na Web",
+      "preco": 28.0,
+      "autor": "Reinaldo Ferraz",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-acessibilidade-web/acessibilidade-web-thumb.png",
+      "alt": "Capa do livro de Acessibilidade na Web",
+      "quantidade": 45,
+      "categoria": "design&UX"
+    },
+    {
+      "titulo": "Web Design Responsivo",
+      "preco": 31.5,
+      "autor": "Mauricio Samy Silva",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-web-design-responsivo/web-design-responsivo-thumb.png",
+      "alt": "Capa do livro de Web Design Responsivo",
+      "quantidade": 25,
+      "categoria": "design&UX"
+    },
+    {
+      "titulo": "Usabilidade na Web: Projetando Interfaces Centradas no Usuário",
+      "preco": 39.0,
+      "autor": "Jakob Nielsen, Hoa Loranger",
+      "imagem": "https://m.media-amazon.com/images/I/51Y87W+9GKL._SL500_.jpg",
+      "alt": "Capa do livro de Usabilidade na Web (este não é da Caelum, mas é um clássico importante)",
+      "quantidade": 30,
+      "categoria": "design&UX"
+    },
+    {
+      "titulo": "Docker para Desenvolvedores",
+      "preco": 39.0,
+      "autor": "Jefferson Fernando",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-docker/docker-thumb.png",
+      "alt": "Capa do livro Docker para Desenvolvedores",
+      "quantidade": 22,
+      "categoria": "infraestrutura"
+    },
+    {
+      "titulo": "Linux: Guia Prático",
+      "preco": 33.0,
+      "autor": "Carlos Eduardo Morimoto",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-linux-guia-pratico/linux-guia-pratico-thumb.png",
+      "alt": "Capa do livro Linux: Guia Prático",
+      "quantidade": 18,
+      "categoria": "infraestrutura"
+    },
+    {
+      "titulo": "Segurança em Aplicações Web",
+      "preco": 41.0,
+      "autor": "Eduardo Neves",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-seguranca-aplicacoes-web/seguranca-aplicacoes-web-thumb.png",
+      "alt": "Capa do livro Segurança em Aplicações Web",
+      "quantidade": 20,
+      "categoria": "infraestrutura"
+    },
+    {
+      "titulo": "DevOps na Prática",
+      "preco": 45.0,
+      "autor": "Danilo Sato",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-devops-na-pratica/devops-na-pratica-thumb.png",
+      "alt": "Capa do livro DevOps na Prática",
+      "quantidade": 27,
+      "categoria": "infraestrutura"
+    },
+    {
+      "titulo": "Servidores Linux: Guia Prático",
+      "preco": 36.5,
+      "autor": "Carlos Eduardo Morimoto",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-servidores-linux/servidores-linux-thumb.png",
+      "alt": "Capa do livro Servidores Linux: Guia Prático",
+      "quantidade": 15,
+      "categoria": "infraestrutura"
+    },
+    {
+      "titulo": "Scrum: Gestão Ágil para Projetos de Sucesso",
+      "preco": 34.0,
+      "autor": "Paulo Caroli",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-scrum/scrum-thumb.png",
+      "alt": "Capa do livro Scrum: Gestão Ágil para Projetos de Sucesso",
+      "quantidade": 60,
+      "categoria": "business"
+    },
+    {
+      "titulo": "Kanban: Guia Essencial",
+      "preco": 29.5,
+      "autor": "David J. Anderson",
+      "imagem": "https://m.media-amazon.com/images/I/51E139QTBxL._SL500_.jpg",
+      "alt": "Capa do livro Kanban: Guia Essencial (este não é da Caelum)",
+      "quantidade": 55,
+      "categoria": "business"
+    },
+    {
+      "titulo": "Lean Startup: Como criar empresas de sucesso utilizando a inovação contínua",
+      "preco": 42.0,
+      "autor": "Eric Ries",
+      "imagem": "https://m.media-amazon.com/images/I/51-j9O6x9PL._SL500_.jpg",
+      "alt": "Capa do livro Lean Startup (este não é da Caelum)",
+      "quantidade": 50,
+      "categoria": "business"
+    },
+    {
+      "titulo": "O Projeto Genoma Startup",
+      "preco": 38.0,
+      "autor": "Breno Masi",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-projeto-genoma-startup/projeto-genoma-startup-thumb.png",
+      "alt": "Capa do livro O Projeto Genoma Startup",
+      "quantidade": 75,
+      "categoria": "business"
+    },
+    {
+      "titulo": "Agile: Desenvolvimento de Software com Entregas Frequentes e Foco no Cliente",
+      "preco": 31.0,
+      "autor": "Mauricio Aniche",
+      "imagem": "https://caelum-online-public.s3.amazonaws.com/livro-agile/agile-thumb.png",
+      "alt": "Capa do livro Agile",
+      "quantidade": 65,
+      "categoria": "business"
+    }
+  ]
