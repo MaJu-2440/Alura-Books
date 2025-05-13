@@ -22,24 +22,27 @@
 
             <ul class="menu-lista">
                 <li class="menu-lista__titulo">Categorias</li>
-                <li class="menu-lista__item">
+                <li class="menu-lista__item" data-value="programacao">
                     <a class="menu-lista__link" href="#">Programação</a>
                 </li>
-                <li class="menu-lista__item">
+                <li class="menu-lista__item" data-value="front-end">
                     <a class="menu-lista__link" href="#">Front-end</a>
                 </li>
-                <li class="menu-lista__item">
+                <li class="menu-lista__item" data-value="back-end">
+                    <a class="menu-lista__link" href="#">Back-end</a>
+                </li>
+                <li class="menu-lista__item" data-value="infraestrutura">
                     <a class="menu-lista__link" href="#">Infraestrutura</a>
                 </li>
-                <li class="menu-lista__item">
+                <li class="menu-lista__item" data-value="business">
                     <a class="menu-lista__link" href="#">Business</a>
                 </li>
-                <li class="menu-lista__item">
+                <li class="menu-lista__item" data-value="design&UX">
                     <a class="menu-lista__link" href="#">Design & UX</a>
                 </li>
             </ul>
 
-            <img class="container__image" src="./assets/Logo.svg" alt="Logo Alura Books">
+            <a href="index.html"><img class="container__image" src="./assets/Logo.svg" alt="Logo Alura Books"></a>
             <h1 class="header__titulo display__medium--device"><b class="header__titulo--negrito">Alura</b>Books</h1>
         </div>
 
@@ -51,22 +54,25 @@
                 </label>
 
                 <ul class="menu-lista">
-                    <li class="menu-lista__item">
-                        <a class="menu-lista__link" href="#">Programação</a>
-                    </li>
-                    <li class="menu-lista__item">
-                        <a class="menu-lista__link" href="#">Front-end</a>
-                    </li>
-                    <li class="menu-lista__item">
-                        <a class="menu-lista__link" href="#">Infraestrutura</a>
-                    </li>
-                    <li class="menu-lista__item">
-                        <a class="menu-lista__link" href="#">Business</a>
-                    </li>
-                    <li class="menu-lista__item">
-                        <a class="menu-lista__link" href="#">Design & UX</a>
-                    </li>
-                </ul>
+                <li class="menu-lista__item" data-value="programacao">
+                    <a class="menu-lista__link" href="#">Programação</a>
+                </li>
+                <li class="menu-lista__item" data-value="front-end">
+                    <a class="menu-lista__link" href="#">Front-end</a>
+                </li>
+                <li class="menu-lista__item" data-value="back-end">
+                    <a class="menu-lista__link" href="#">Back-end</a>
+                </li>
+                <li class="menu-lista__item" data-value="infraestrutura">
+                    <a class="menu-lista__link" href="#">Infraestrutura</a>
+                </li>
+                <li class="menu-lista__item" data-value="business">
+                    <a class="menu-lista__link" href="#">Business</a>
+                </li>
+                <li class="menu-lista__item" data-value="design&UX">
+                    <a class="menu-lista__link" href="#">Design & UX</a>
+                </li>
+            </ul>
                 
                 <li><a class="header__nav--item" href="#">Favoritos</a></li>
                 <li><a class="header__nav--item" href="#">Minha Estante</a></li>
@@ -100,7 +106,7 @@
     </section>
 
     <!--LANÇAMENTOS-->
-    <section class="carrossel">
+    <section class="carrossel categoria-selecionada">
         <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
         
         <div class="carrossel__content">
@@ -162,7 +168,7 @@
     </section>
 
     <!--MAIS VENDIDOS-->
-    <section class="carrossel">
+    <section class="carrossel categoria-selecionada">
         <h2 class="carrossel__titulo">Mais vendidos</h2>
 
         <div class="carrossel__content">
@@ -225,8 +231,16 @@
         </div>
     </section>
 
+    <!--LISTA DE LIVROS DA CATEGORIA SELECIONADA-->
+    <section class="carrossel">
+        <h2 class="carrossel__titulo" id="categoria__titulo"></h2>
+        <div class="carrossel__content">
+            <div id="livros"></div>
+        </div>
+    </section>
+
     <!--TÓPICOS RECENTES-->
-    <section class="topicos">
+    <section class="topicos categoria-selecionada">
         <h2 class="topicos__titulo">Tópicos visitados recentemente</h2>
 
         <ul class="topicos__lista">
@@ -369,5 +383,8 @@
             }
         });
     </script>
+
+    <!--SCRIPT JS-->
+    <script src="app/main.js"></script>
 </body>
 </html>
