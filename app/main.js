@@ -1,5 +1,5 @@
 let livros = [];
-const endpointAPI = 'https://maju-2440.github.io/Alura-Books/requisicao.json';
+const endpointAPI = 'https://maju-2440.github.io/API-ALuraBooks/APILivros.json';
 buscarLivrosAPI();
 
 const elementoDaLista = document.getElementById('livros');
